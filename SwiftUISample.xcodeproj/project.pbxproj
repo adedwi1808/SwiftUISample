@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5335FD022B7AFCB300834C78 /* PirateGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5335FD012B7AFCB300834C78 /* PirateGroup.swift */; };
 		AD9B20C82B7A590B0088ED69 /* SwiftUISampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9B20C72B7A590B0088ED69 /* SwiftUISampleApp.swift */; };
 		AD9B20CA2B7A590B0088ED69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9B20C92B7A590B0088ED69 /* ContentView.swift */; };
 		AD9B20CC2B7A590D0088ED69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD9B20CB2B7A590D0088ED69 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5335FD012B7AFCB300834C78 /* PirateGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PirateGroup.swift; sourceTree = "<group>"; };
 		AD9B20C42B7A590B0088ED69 /* SwiftUISample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD9B20C72B7A590B0088ED69 /* SwiftUISampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISampleApp.swift; sourceTree = "<group>"; };
 		AD9B20C92B7A590B0088ED69 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5335FD002B7AFCA100834C78 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5335FD012B7AFCB300834C78 /* PirateGroup.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		AD9B20BB2B7A590B0088ED69 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +61,7 @@
 		AD9B20C62B7A590B0088ED69 /* SwiftUISample */ = {
 			isa = PBXGroup;
 			children = (
+				5335FD002B7AFCA100834C78 /* Model */,
 				AD9B20C72B7A590B0088ED69 /* SwiftUISampleApp.swift */,
 				AD9B20C92B7A590B0088ED69 /* ContentView.swift */,
 				AD9B20CB2B7A590D0088ED69 /* Assets.xcassets */,
@@ -139,6 +150,7 @@
 			files = (
 				AD9B20CA2B7A590B0088ED69 /* ContentView.swift in Sources */,
 				AD9B20C82B7A590B0088ED69 /* SwiftUISampleApp.swift in Sources */,
+				5335FD022B7AFCB300834C78 /* PirateGroup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
